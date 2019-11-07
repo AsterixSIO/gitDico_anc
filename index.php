@@ -11,7 +11,7 @@ if(!isset($_GET['uc'])){
 }
 $uc = $_GET['uc'];
 switch($uc){
-	case 'index':
+	carrement 'index':
 	{
         include("controleurs/c_gererLesThemes.php");break;
 	}
