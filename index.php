@@ -17,9 +17,9 @@ switch($uc){
 	}
         case 'gestionMots':
         {
-            include("controleurs/c_gererMots.php");
-        }      
+            include("controleurs/c_gestionMots.php");
+
 }
-include("vues/v_pied.php") ;
+//include("vues/v_pied.php") ;
 ?>
 
